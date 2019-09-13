@@ -1,0 +1,48 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+    
+<input type="radio" id="rd1" name="grp1" value="simple snipset">simple</input>
+<input type="radio" id="rd2" name="grp2" value="normal snipset">normal</input>
+<button id="btn" onclick="fn1()">click me</button>
+
+
+<img src="C:/Users/RD Singh/Desktop/farji/4.jpg" id="img1" onmouseover="set()">
+</body>
+
+
+<script type="text/javascript">
+    function fn1()
+    {
+    var str2=document.getElementById("rd1");
+    var str=document.getElementById("rd2");
+    if(rd1.checked==true)
+    alert("the chanel selected is"+rd1.value);
+
+    
+    if(rd2.checked==true)
+    alert("the chanel selected is"+rd2.value);
+
+    else alert("no chanel selected");
+    
+    }
+    
+    function set()
+    {
+document.getElementById("img1").src="C:/Users/RD Singh/Desktop/farji/3.jpg";
+
+    }
+
+    
+    </script>
+
+</html>

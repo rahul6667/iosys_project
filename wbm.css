@@ -1,0 +1,153 @@
+body{
+    font: 15px/1.5 arial,helvetica;
+    padding: 0%;
+    margin: 0%;
+    background-color:#f4f4f4;
+    width: auto;
+    }
+    header div{
+        display: inline;
+    
+    }
+   header #uper  div{
+       
+       list-style-type: none;  
+       float: right;
+       padding: 10px 40px;
+       }
+
+   header #uper .bgl{
+       
+    
+    margin-top:-50px;
+    font-weight: 900px;
+       border: 1px solid white; 
+   }
+
+   header #uper .bgl ul li a{
+       display: inline;
+    color: #e8491d;
+
+    font-weight: 900;
+    border: 1px solid black; 
+   }
+
+  
+    
+    header{
+    background-color:#35424a;
+    color: #ffffff;
+    padding: 30px;
+    width: auto;
+    min-height: 100px;
+    border-bottom: #e8491d 3px solid;
+    
+    }
+    .D{
+        color: #e8491d;
+    }
+   
+    header a:hover{
+
+        background: #35424a;
+        color: #f4f4f4;
+    }
+
+section{
+    width: auto;
+}
+    #imgset{
+        min-height: 400px;
+        background-image: url("C:/Users/RD Singh/Desktop/WBM/imeges/a.jpg")  ;
+        background-repeat: no-repeat;
+        background-size: 700px;
+        text-align: center;
+        color: #ffffff;
+        }
+        #img2 p{
+           text-transform: capitalize;
+            color: #ffffff;
+          
+           
+        }
+ 
+        #img2{
+            background: #b4a8a8;
+             height: 400px;
+              overflow-y: scroll;
+        }
+
+        #img2 p{
+            text-transform: capitalize;
+             color:white;
+        }
+             
+             
+         
+         footer{
+             background: #35424a;
+             min-height:50px; 
+             padding: 10px;
+         }
+         footer h5{
+             padding-top: 20px;
+             text-align: center;
+             color:white;
+         }
+
+         /*addcust.html */
+
+         .mantain{
+            background: gray;
+             color: black;
+             width: auto;
+             text-align: left;
+             font-weight: 900px;
+             float: center;
+             
+            
+             
+         }
+         .mantain form{
+            margin-right:30px;
+            margin-left: 30px;
+           margin-top: 20px;
+           padding-bottom: 20px;
+           font-weight: 900px;
+            
+         }
+         #mantain1{
+             margin-left: 350px;
+             
+         }
+
+         /* add supp.html */
+         
+         .supp{
+            background: gray;
+             color: black;
+             width: auto;
+             text-align: left;
+             font-weight: 900px;
+            
+             
+             
+            
+             
+         }
+         .supp form{
+            
+            margin-right:30px;
+            margin-left: 30px;
+           margin-top: 20px;
+           padding-bottom: 20px;
+           font-weight: 900px;
+            
+         }
+         #supp1{
+             margin-left: 350px;
+             
+         }
+         
+        
+         
